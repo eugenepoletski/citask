@@ -1,5 +1,11 @@
+import Link from 'next/link'
+
 const Header = () => (
-  <div>Header</div>
+  <div>
+    <Link href="/">
+      <a>start over</a>
+    </Link>
+  </div>
 )
 
 export default Header

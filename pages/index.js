@@ -1,8 +1,9 @@
-import Layout from '../components/Layout';
+import { Layout, Next } from '../components';
 
 const Index = () => (
   <Layout>
     Welcome
+    <Next href="/phone" />
   </Layout>
 )
 
