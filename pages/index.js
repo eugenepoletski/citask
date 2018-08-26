@@ -1,3 +1,9 @@
 import Layout from '../components/Layout';
 
-export default Layout
+const Index = () => (
+  <Layout>
+    Welcome
+  </Layout>
+)
+
+export default Index
