@@ -1,3 +1,3 @@
-export default () => (
-  <div>index</div>
-)
+import Layout from '../components/Layout';
+
+export default Layout
