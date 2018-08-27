@@ -1,11 +1,20 @@
+import styled from 'styled-components';
 import Link from 'next/link'
 
+import Logo from '../Logo';
+
+const Wrapper = styled.div`
+  height: 40px;
+`;
+Wrapper.displayName = 'Header.Wrapper';
+
 const Header = () => (
-  <div>
+  <Wrapper>
+    <Logo />
     <Link href="/">
       <a>start over</a>
     </Link>
-  </div>
+  </Wrapper>
 )
 
 export default Header
